@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-13T07:37:37 EET" name="e-commerce" finished-at="2022-02-13T07:38:13 EET" duration-ms="36558">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T07:37:37 EET" name="Testing1" finished-at="2022-02-13T07:38:13 EET" duration-ms="36558">
+      <class name="webpagestest.createnewaccounttest">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:webpagestest.createnewaccounttest@783a467b]" started-at="2022-02-13T07:37:11 EET" name="startdriver" finished-at="2022-02-13T07:37:37 EET" duration-ms="25683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method signature="createtest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:webpagestest.createnewaccounttest@783a467b]" started-at="2022-02-13T07:37:38 EET" name="createtest" data-provider="exceldata" finished-at="2022-02-13T07:37:59 EET" duration-ms="21239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Helal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manial]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[cairo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10452.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtest -->
+        <test-method signature="flnametest()[pri:2, instance:webpagestest.createnewaccounttest@783a467b]" started-at="2022-02-13T07:37:59 EET" name="flnametest" finished-at="2022-02-13T07:38:13 EET" duration-ms="14080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flnametest -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:webpagestest.createnewaccounttest@783a467b]" started-at="2022-02-13T07:38:14 EET" name="stopdriver" finished-at="2022-02-13T07:38:18 EET" duration-ms="4349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- webpagestest.createnewaccounttest -->
+    </test> <!-- Testing1 -->
+  </suite> <!-- e-commerce -->
+</testng-results>
